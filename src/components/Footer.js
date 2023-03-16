@@ -31,6 +31,13 @@ function Footer() {
                     <Link to='/sign-up'>Investors</Link>
                     <Link to='/sign-up'>Terms of Services</Link>
                 </div>
+                <div className='footer-link-items'>
+                    <h2>Contact Us</h2>
+                    <Link to='/'>Contact</Link>
+                    <Link to='/'>Support</Link>
+                    <Link to='/'>Destinations</Link>
+                    <Link to='/'>Sponsorships</Link>
+                </div>
             </div>
             <div className='footer-link-wrapper'>
                 <div className='footer-link-items'>
@@ -75,6 +82,22 @@ function Footer() {
                 aria-label='instagram'
                 >
                     <i className='fab fa-instagram' />
+                </Link>
+                <Link
+                className='social-icon-link twitter'
+                to='/'
+                target='_blank'
+                aria-label='twitter'
+                >
+                    <i className='fab fa-twitter' />
+                </Link>
+                <Link
+                className='social-icon-link youtube'
+                to='/'
+                target='_blank'
+                aria-label='youtube'
+                >
+                    <i className='fab fa-youtube' />
                 </Link>
                 <Link
                 className='social-icon-link linkedin'
